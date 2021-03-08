@@ -1,21 +1,15 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:sspu_question/features/home/data/models/model.dart';
-import 'dart:convert';
 
-QuestionBank questionBankFromJson(String str) => QuestionBank.fromJson(json.decode(str));
-String questionBankToJson(QuestionBank data) => json.encode(data.toJson());
+part 'question_bank.freezed.dart';
+part 'question_bank.g.dart';
 
-class QuestionBank {
-    QuestionBank({
-        this.branches,
-    });
-
-    List<Branch> branches;
-
-    factory QuestionBank.fromJson(Map<String, dynamic> json) => QuestionBank(
-        branches: List<Branch>.from(json["branches"].map((x) => Branch.fromJson(x))),
-    );
-
-    Map<String, dynamic> toJson() => {
-        "branches": List<dynamic>.from(branches.map((x) => x.toJson())),
-    };
+@freezed
+abstract class QuestionBank with _$QuestionBank {
+  factory QuestionBank(
+    List<Branches> branches
+  ) = _QuestionBank;
+	
+  factory QuestionBank.fromJson(Map<String, dynamic> json) =>
+			_$QuestionBankFromJson(json);
 }

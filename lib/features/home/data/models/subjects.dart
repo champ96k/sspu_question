@@ -1,25 +1,16 @@
-import 'package:sspu_question/features/home/data/models/model.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-class Subjects {
-    Subjects({
-        this.questionPaperUrl,
-        this.other,
-        this.subjectName,
-    });
+part 'subjects.freezed.dart';
+part 'subjects.g.dart';
 
-    QuestionPaperUrl questionPaperUrl;
-    Other other;
-    SubjectName subjectName;
+@freezed
+abstract class Subjects with _$Subjects {
+  factory Subjects(
+    String questionPaperURL,
+    String other,
+    String subjectName,
+  ) = _Subjects;
 
-    factory Subjects.fromJson(Map<String, dynamic> json) => Subjects(
-        questionPaperUrl: questionPaperUrlValues.map[json["questionPaperURL"]],
-        other: otherValues.map[json["other"]],
-        subjectName: subjectNameValues.map[json["subjectName"]],
-    );
-
-    Map<String, dynamic> toJson() => {
-        "questionPaperURL": questionPaperUrlValues.reverse[questionPaperUrl],
-        "other": otherValues.reverse[other],
-        "subjectName": subjectNameValues.reverse[subjectName],
-    };
+  factory Subjects.fromJson(Map<String, dynamic> json) =>
+      _$SubjectsFromJson(json);
 }
