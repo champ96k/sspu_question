@@ -33,7 +33,11 @@ class Constants {
     Colors.cyan.withOpacity(0.2)
   ];
 
-  static String title = "Title text";
+  static Color buttonColor = Color(0xff4B0082);
+  static const primaryBackground = Color(0XFFe5eefc);
+  static const silver = Color(0xffc8b375);
+  static Color buttonShadowColor = Color(0xff00008B);
+
   static String bannerImage =
       "https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2767&q=80";
 }

@@ -1,6 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:sspu_question/features/home/data/models/model.dart';
-
+import 'package:sspu_question/core/models/model.dart';
 part 'semester.freezed.dart';
 part 'semester.g.dart';
 

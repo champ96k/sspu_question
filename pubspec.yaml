@@ -27,6 +27,7 @@ dependencies:
   cached_network_image: ^2.3.3
   cupertino_icons: ^1.0.0
   equatable: ^1.2.5
+  syncfusion_flutter_pdfviewer: ^18.4.44-beta
 
   #serialization
   built_value: ^7.1.0
