@@ -11,7 +11,7 @@ class NeumorphicButton extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(
         horizontal: size.width * 0.08,
-        vertical: size.height * 0.012,
+        vertical: size.height * 0.010,
       ),
       child: Stack(
         children: <Widget>[

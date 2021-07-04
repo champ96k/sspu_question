@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   const AppHeading(text: "Your", subText: "Bookshelf"),
                   SizedBox(height: size.height * 0.02),
-                  BannerImage(),
+                  BannerImage(bannerInfo: state.models[0].bannerInfo),
                   ListView.builder(
                     physics: const ScrollPhysics(),
                     shrinkWrap: true,
@@ -37,9 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemBuilder: (context, index) {
                       final model = state.models[0].branches![index];
                       return BranchListItem(
-                        imageUrl: Constants.images[index],
+                        imageUrl: "${model!.branchThumbnail}",
                         cardColor: ConstantsColor.colors[index],
-                        title: model!.branchName as String,
+                        title: "${model.branchName}",
                         onTab: () {
                           Navigator.pushNamed(
                             context,
