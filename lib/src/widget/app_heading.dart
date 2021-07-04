@@ -7,7 +7,7 @@ class AppHeading extends StatelessWidget {
   final String subText;
 
   const AppHeading({
-    Key key,
+    Key? key,
     this.alignment = Alignment.centerLeft,
     this.subTextFontSize = 32.0,
     this.text = '',
