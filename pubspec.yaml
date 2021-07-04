@@ -26,10 +26,13 @@ dependencies:
   cached_network_image: ^3.0.0
 
   #PDF Viewer
-  syncfusion_flutter_pdfviewer: ^19.2.44-beta
+  flutter_cached_pdfview: ^0.4.0-nullsafety
 
   #utils
   intl: ^0.17.0
+
+  #shared_preferences
+  shared_preferences: ^2.0.6
 
   #Firebase
   firebase_core: ^1.3.0

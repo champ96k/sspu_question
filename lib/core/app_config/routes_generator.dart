@@ -29,6 +29,7 @@ class RouteGenerator {
         return MaterialPageRoute(
           builder: (context) => SubjectScreen(
             semesters: args['semesters'],
+            subjectName: args['subjectName'],
           ),
         );
 

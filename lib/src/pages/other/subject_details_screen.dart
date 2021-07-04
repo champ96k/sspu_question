@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import '../../../core/core.dart';
+import '../../widget/default_app_bar.dart';
 
 class SubjectDetailsScreen extends StatefulWidget {
   final Subjects subjects;
@@ -16,48 +18,66 @@ class _SubjectDetailsScreenState extends State<SubjectDetailsScreen> {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final size = MediaQuery.of(context).size;
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(
-          "${widget.subjects.subjectName}",
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
-          textAlign: TextAlign.center,
-        ),
+      appBar: DefaultAppBar(
+        title: "${widget.subjects.subjectName}",
       ),
-      body: ListView.builder(
-        shrinkWrap: true,
+      body: SingleChildScrollView(
         physics: const ScrollPhysics(),
-        scrollDirection: Axis.vertical,
-        itemCount: widget.subjects.questionPapers!.length,
-        itemBuilder: (context, index) {
-          final papers = widget.subjects.questionPapers![index];
-          return ListTile(
-            onTap: () {
-              Navigator.pushNamed(context, ScreenName.pdfScreenViewer,
-                  arguments: {"questionPapers": papers});
-            },
-            title: Text(
-              "${papers!.paperNmae}",
-              maxLines: 2,
-              style: textTheme.bodyText2?.copyWith(
-                fontSize: 16.0,
+        child: Column(
+          children: [
+            SizedBox(height: size.height * 0.02),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: size.width * 0.1),
+              child: Text(
+                """Showing question papers of ${widget.subjects.subjectName} ${widget.subjects.questionPapers!.length} question paper found""",
+                textAlign: TextAlign.center,
+                style: textTheme.caption!.copyWith(
+                  fontStyle: FontStyle.italic,
+                ),
               ),
             ),
-            subtitle: Text(
-              "${papers.patternName}",
-              style: const TextStyle(
-                fontStyle: FontStyle.italic,
-              ),
+            ListView.builder(
+              shrinkWrap: true,
+              physics: const ScrollPhysics(),
+              scrollDirection: Axis.vertical,
+              itemCount: widget.subjects.questionPapers!.length,
+              itemBuilder: (context, index) {
+                final papers = widget.subjects.questionPapers![index];
+                return ListTile(
+                  onTap: () {
+                    Navigator.pushNamed(context, ScreenName.pdfScreenViewer,
+                        arguments: {"questionPapers": papers});
+                  },
+                  title: Text(
+                    "${papers!.paperNmae}",
+                    maxLines: 2,
+                    style: textTheme.bodyText2?.copyWith(
+                      fontSize: 16.0,
+                    ),
+                  ),
+                  subtitle: Text(
+                    "${papers.patternName}",
+                    style: const TextStyle(
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  //TODO:
+                  trailing: const Icon(Icons.cloud_download),
+                  leading: CircleAvatar(
+                    backgroundColor:
+                        ConstantsColor.buttonShadowColor.withOpacity(0.7),
+                    child: const Icon(
+                      Icons.library_books_outlined,
+                      color: Colors.white,
+                    ),
+                  ),
+                );
+              },
             ),
-            trailing: const Icon(Icons.cloud_download),
-            leading: const CircleAvatar(
-              backgroundColor: Colors.orange,
-              child: Icon(Icons.library_books_outlined, color: Colors.white),
-            ),
-          );
-        },
+          ],
+        ),
       ),
     );
   }
