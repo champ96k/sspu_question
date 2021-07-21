@@ -63,8 +63,6 @@ class _SubjectDetailsScreenState extends State<SubjectDetailsScreen> {
                       fontStyle: FontStyle.italic,
                     ),
                   ),
-                  //TODO:
-                  trailing: const Icon(Icons.cloud_download),
                   leading: CircleAvatar(
                     backgroundColor:
                         ConstantsColor.buttonShadowColor.withOpacity(0.7),

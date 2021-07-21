@@ -47,7 +47,7 @@ class _SemesterScreenState extends State<SemesterScreen> {
                         ScreenName.subjectScreen,
                         arguments: {
                           "semesters": widget.branch.semesters![index],
-                          "subjectName": widget.branch.branchName,
+                          "branchName": widget.branch.branchName,
                         },
                       );
                     },

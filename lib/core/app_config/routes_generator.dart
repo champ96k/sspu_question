@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../src/pages/home/home_screen.dart';
+import '../../src/pages/other/feedback/feedback_screen.dart';
 import '../../src/pages/other/pdf_viewr_screen.dart';
 import '../../src/pages/other/semester_screen.dart';
 import '../../src/pages/other/subject_details_screen.dart';
@@ -16,6 +17,11 @@ class RouteGenerator {
           builder: (context) => HomeScreen(),
         );
 
+      case ScreenName.feedbackScreen:
+        return MaterialPageRoute(
+          builder: (context) => const FeedbackScreen(),
+        );
+
       case ScreenName.semsterScreen:
         final args = settings.arguments as Map<String, dynamic>;
         return MaterialPageRoute(
@@ -29,7 +35,7 @@ class RouteGenerator {
         return MaterialPageRoute(
           builder: (context) => SubjectScreen(
             semesters: args['semesters'],
-            subjectName: args['subjectName'],
+            branchName: args['branchName'],
           ),
         );
 

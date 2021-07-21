@@ -4,4 +4,6 @@ class ScreenName {
   static const String subjectScreen = 'SubjectScreen';
   static const String subjectDetailsScreen = 'SubjectDetailsScreen';
   static const String pdfScreenViewer = 'PDFScreenViewer';
+
+  static const String feedbackScreen = 'FeedbackScreen';
 }

@@ -5,11 +5,11 @@ import '../../widget/default_app_bar.dart';
 
 class SubjectScreen extends StatelessWidget {
   final Semesters semesters;
-  final String subjectName;
+  final String branchName;
   const SubjectScreen({
     Key? key,
     required this.semesters,
-    this.subjectName = '',
+    this.branchName = '',
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class SubjectScreen extends StatelessWidget {
           children: [
             SizedBox(height: size.height * 0.02),
             Text(
-              """Showing subjects for $subjectName ${semesters.semesterName}""",
+              """Showing subjects for $branchName ${semesters.semesterName}""",
               style: textTheme.caption!.copyWith(
                 fontStyle: FontStyle.italic,
               ),

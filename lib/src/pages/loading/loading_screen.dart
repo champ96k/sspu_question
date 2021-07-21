@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class LoadingScreen extends StatelessWidget {
-  const LoadingScreen({Key? key}) : super(key: key);
+  final String loadingText;
+  const LoadingScreen({
+    Key? key,
+    this.loadingText = 'Loading',
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +19,7 @@ class LoadingScreen extends StatelessWidget {
           children: [
             const CircularProgressIndicator(),
             const SizedBox(height: 16.0),
-            const Text("Loading"),
+            Text(loadingText),
           ],
         ),
       )),

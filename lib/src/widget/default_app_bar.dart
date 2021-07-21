@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../core/app_config/screen_name.dart';
 import '../../core/constants/constant_color.dart';
 
 class DefaultAppBar extends StatefulWidget implements PreferredSizeWidget {
@@ -29,11 +30,27 @@ class _DefaultAppBarState extends State<DefaultAppBar> {
         textAlign: TextAlign.center,
       ),
       actions: [
-        //TODO:
-        IconButton(
-          onPressed: () {},
-          icon: const Icon(Icons.more_vert_rounded),
-        )
+        PopupMenuButton(
+          onSelected: (value) {
+            if (value == 1) {
+              Navigator.of(context).pushNamed(ScreenName.feedbackScreen);
+            }
+          },
+          itemBuilder: (context) => [
+            const PopupMenuItem(
+              child: Text("Feedback"),
+              value: 1,
+            ),
+            const PopupMenuItem(
+              child: Text("Rate us"),
+              value: 2,
+            ),
+            const PopupMenuItem(
+              child: Text("Share this app"),
+              value: 3,
+            ),
+          ],
+        ),
       ],
     );
   }
