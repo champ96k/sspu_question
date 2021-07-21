@@ -1,16 +1,10 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import '../../core/constants/constant.dart';
+import '../../core/constants/constant_color.dart';
 
 class CustomPopUp extends StatefulWidget {
-  final String title;
-  final List<Widget> children;
-
-  const CustomPopUp({
-    Key? key,
-    this.title = "",
-    required this.children,
-  }) : super(key: key);
   @override
   _CustomPopUptate createState() => _CustomPopUptate();
 }
@@ -18,7 +12,8 @@ class CustomPopUp extends StatefulWidget {
 class _CustomPopUptate extends State<CustomPopUp> {
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context).textTheme;
+    final _size = MediaQuery.of(context).size;
+    final _textTheme = Theme.of(context).textTheme;
     return BackdropFilter(
       filter: ImageFilter.blur(
         sigmaX: 5,
@@ -34,18 +29,53 @@ class _CustomPopUptate extends State<CustomPopUp> {
               children: [
                 AlertDialog(
                   elevation: 8,
-                  title: widget.title != ""
-                      ? Center(
-                          child: Text(
-                            widget.title,
-                            style: theme.headline6!
-                                .copyWith(fontWeight: FontWeight.w600),
-                            textAlign: TextAlign.center,
-                          ),
-                        )
-                      : null,
                   content: SingleChildScrollView(
-                    child: ListBody(children: widget.children),
+                    child: ListBody(
+                      children: [
+                        Image(
+                          height: _size.height * 0.2,
+                          width: _size.width,
+                          image: AssetImage(Constants.thankYouImage),
+                        ),
+                        SizedBox(height: _size.height * 0.01),
+                        Text(
+                          "Thank you!",
+                          textAlign: TextAlign.center,
+                          style: _textTheme.headline5!.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        SizedBox(height: _size.height * 0.01),
+                        Text(
+                          """Your message has been received we will be in touch and contact you soon""",
+                          textAlign: TextAlign.center,
+                          style: _textTheme.bodyText2!.copyWith(
+                            color: Colors.grey,
+                          ),
+                        ),
+                        SizedBox(height: _size.height * 0.04),
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                          child: Container(
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                              color: ConstantsColor.buttonColor,
+                              borderRadius: BorderRadius.circular(6.0),
+                            ),
+                            width: _size.width,
+                            height: _size.height * 0.06,
+                            child: const Text(
+                              "Ok",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],

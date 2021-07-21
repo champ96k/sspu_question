@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 
@@ -32,25 +34,36 @@ class _PDFScreenViewerState extends State<PDFScreenViewer> {
         width: size.width,
         child: PDF(
           pageSnap: true,
-          onError: (e) {},
+          onError: (e) {
+            log(e.toString());
+          },
+          onPageError: (page, error) {
+            log(error.toString());
+          },
         ).cachedFromUrl(
           Constants.demoPDF,
-          whenDone: (value) {},
+          whenDone: (value) {
+            log(value.toString());
+          },
           placeholder: (progress) {
+            log(progress.toString());
             return Center(
               child: LoadingScreen(
                 loadingText: "Downloading $progress %",
               ),
             );
           },
-          errorWidget: (error) => Center(
-            child: Text(
-              error.toString(),
-              style: textTheme.bodyText2!.copyWith(
-                color: Colors.black,
+          errorWidget: (error) {
+            log(error.toString());
+            return Center(
+              child: Text(
+                "Something went wrong",
+                style: textTheme.bodyText2!.copyWith(
+                  color: Colors.black,
+                ),
               ),
-            ),
-          ),
+            );
+          },
         ),
       ),
     );
