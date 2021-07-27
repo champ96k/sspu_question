@@ -1,30 +1,17 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
 import '../models.dart';
 
-class Semesters {
-  String? semesterName;
-  List<Subjects?>? subjects;
+part 'semesters.freezed.dart';
+part 'semesters.g.dart';
 
-  Semesters({
-    this.semesterName,
-    this.subjects,
-  });
+@freezed
+class Semesters with _$Semesters {
+  factory Semesters(
+    String? semesterName,
+    List<Subjects?>? subjects,
+  ) = _Semesters;
 
-  Semesters.fromJson(Map<String, dynamic> json) {
-    semesterName = json['semesterName'];
-    if (json['subjects'] != null) {
-      subjects = <Subjects>[];
-      json['subjects'].forEach((v) {
-        subjects!.add(Subjects.fromJson(v));
-      });
-    }
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    data['semesterName'] = semesterName;
-    if (subjects != null) {
-      data['subjects'] = subjects!.map((v) => v!.toJson()).toList();
-    }
-    return data;
-  }
+  factory Semesters.fromJson(Map<String, dynamic> json) =>
+      _$SemestersFromJson(json);
 }

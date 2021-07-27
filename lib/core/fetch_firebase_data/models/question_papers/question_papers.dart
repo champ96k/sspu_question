@@ -1,25 +1,16 @@
-class QuestionPapers {
-  String? paperNmae;
-  String? patternName;
-  String? downloadURL;
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  QuestionPapers({
-    this.paperNmae,
-    this.patternName,
-    this.downloadURL,
-  });
+part 'question_papers.freezed.dart';
+part 'question_papers.g.dart';
 
-  QuestionPapers.fromJson(Map<String, dynamic> json) {
-    paperNmae = json['paperNmae'];
-    patternName = json['patternName'];
-    downloadURL = json['downloadURL'];
-  }
+@freezed
+class QuestionPapers with _$QuestionPapers {
+  factory QuestionPapers(
+    String? paperNmae,
+    String? patternName,
+    String? downloadURL,
+  ) = _QuestionPapers;
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    data['paperNmae'] = paperNmae;
-    data['patternName'] = patternName;
-    data['downloadURL'] = downloadURL;
-    return data;
-  }
+  factory QuestionPapers.fromJson(Map<String, dynamic> json) =>
+      _$QuestionPapersFromJson(json);
 }

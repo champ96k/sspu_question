@@ -5,6 +5,7 @@ import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 
 import '../../../core/core.dart';
 import '../../widget/default_app_bar.dart';
+import '../error/error_screen.dart';
 import '../loading/loading_screen.dart';
 
 class PDFScreenViewer extends StatefulWidget {
@@ -22,7 +23,6 @@ class _PDFScreenViewerState extends State<PDFScreenViewer> {
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
-    final textTheme = Theme.of(context).textTheme;
     return Scaffold(
       appBar: DefaultAppBar(
         title:
@@ -41,7 +41,7 @@ class _PDFScreenViewerState extends State<PDFScreenViewer> {
             log(error.toString());
           },
         ).cachedFromUrl(
-          Constants.demoPDF,
+          widget.questionPapers.downloadURL.toString(),
           whenDone: (value) {
             log(value.toString());
           },
@@ -55,14 +55,7 @@ class _PDFScreenViewerState extends State<PDFScreenViewer> {
           },
           errorWidget: (error) {
             log(error.toString());
-            return Center(
-              child: Text(
-                "Something went wrong",
-                style: textTheme.bodyText2!.copyWith(
-                  color: Colors.black,
-                ),
-              ),
-            );
+            return const ErrorScreen();
           },
         ),
       ),

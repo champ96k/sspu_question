@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart';
+// @dart=2.9
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+
 import 'core/app_config/service_locator.dart';
 import 'material_app_screen.dart';
 import 'src/pages/error/error_screen.dart';

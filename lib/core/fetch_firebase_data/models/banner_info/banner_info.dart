@@ -1,37 +1,21 @@
-class BannerInfo {
-  String? bannerId;
-  String? bannerName;
-  String? bannertype;
-  String? url;
-  String? thumbnailImage;
-  String? screenName;
+import 'package:freezed_annotation/freezed_annotation.dart';
+import '../../../app_config/tap_action.dart';
 
-  BannerInfo({
-    this.bannerId,
-    this.bannerName,
-    this.bannertype,
-    this.url,
-    this.thumbnailImage,
-    this.screenName,
-  });
+part 'banner_info.freezed.dart';
+part 'banner_info.g.dart';
 
-  BannerInfo.fromJson(Map<String, dynamic> json) {
-    bannerId = json['bannerId'];
-    bannerName = json['bannerName'];
-    bannertype = json['bannertype'];
-    url = json['url'];
-    thumbnailImage = json['thumbnailImage'];
-    screenName = json['screenName'];
-  }
+@freezed
+class BannerInfo with _$BannerInfo {
+  factory BannerInfo(
+    String? bannerName,
+    String? bannertype,
+    String? url,
+    String? thumbnailImage,
+    String? screenName,
+    bool isActive,
+    TapAction? tapAction,
+  ) = _BannerInfo;
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    data['bannerId'] = bannerId;
-    data['bannerName'] = bannerName;
-    data['bannertype'] = bannertype;
-    data['url'] = url;
-    data['thumbnailImage'] = thumbnailImage;
-    data['screenName'] = screenName;
-    return data;
-  }
+  factory BannerInfo.fromJson(Map<String, dynamic> json) =>
+      _$BannerInfoFromJson(json);
 }

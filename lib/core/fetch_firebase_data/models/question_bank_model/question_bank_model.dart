@@ -1,41 +1,17 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
 import '../models.dart';
 
-class QuestionBankModel {
-  List<BannerInfo?>? bannerInfo;
-  bool? showBanners;
-  List<Branches?>? branches;
+part 'question_bank_model.freezed.dart';
+part 'question_bank_model.g.dart';
 
-  QuestionBankModel({
-    this.bannerInfo,
-    this.showBanners,
-    this.branches,
-  });
+@freezed
+class QuestionBankModel with _$QuestionBankModel {
+  factory QuestionBankModel(
+    bool showBanners,
+    List<BannerInfo?>? bannerInfo,
+    List<Branches?>? branches,
+  ) = _QuestionBankModel;
 
-  QuestionBankModel.fromJson(Map<String, dynamic> json) {
-    if (json['bannerInfo'] != null) {
-      bannerInfo = <BannerInfo>[];
-      json['bannerInfo'].forEach((v) {
-        bannerInfo!.add(BannerInfo.fromJson(v));
-      });
-    }
-    showBanners = json['showBanners'];
-    if (json['branches'] != null) {
-      branches = <Branches>[];
-      json['branches'].forEach((v) {
-        branches!.add(Branches.fromJson(v));
-      });
-    }
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    if (bannerInfo != null) {
-      data['bannerInfo'] = bannerInfo!.map((v) => v!.toJson()).toList();
-    }
-    data['showBanners'] = showBanners;
-    if (branches != null) {
-      data['branches'] = branches!.map((v) => v!.toJson()).toList();
-    }
-    return data;
-  }
+  factory QuestionBankModel.fromJson(Map<String, dynamic> json) =>
+      _$QuestionBankModelFromJson(json);
 }

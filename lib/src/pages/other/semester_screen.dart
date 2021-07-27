@@ -38,7 +38,7 @@ class _SemesterScreenState extends State<SemesterScreen> {
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
                 scrollDirection: Axis.vertical,
-                itemCount: widget.branch.semesters!.length,
+                itemCount: widget.branch.semesters?.length,
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
@@ -52,8 +52,7 @@ class _SemesterScreenState extends State<SemesterScreen> {
                       );
                     },
                     child: NeumorphicButton(
-                      title: widget.branch.semesters![index]!.semesterName
-                          as String,
+                      title: widget.branch.semesters![index]!.semesterName,
                     ),
                   );
                 },

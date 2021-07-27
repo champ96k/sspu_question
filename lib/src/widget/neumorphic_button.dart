@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../core/constants/constant_color.dart';
 
 class NeumorphicButton extends StatelessWidget {
-  final String title;
+  final String? title;
   const NeumorphicButton({Key? key, required this.title}) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -44,7 +44,7 @@ class NeumorphicButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    title,
+                    title.toString(),
                     style: textTheme.bodyText2
                         ?.copyWith(color: ConstantsColor.buttonColor),
                   ),

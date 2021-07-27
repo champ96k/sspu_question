@@ -1,8 +1,10 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 import '../../src/pages/home/home_screen.dart';
 import '../../src/pages/other/feedback/feedback_screen.dart';
-import '../../src/pages/other/pdf_viewr_screen.dart';
+import '../../src/pages/other/pdf_viewer_screen.dart';
 import '../../src/pages/other/semester_screen.dart';
 import '../../src/pages/other/subject_details_screen.dart';
 import '../../src/pages/other/subject_screen.dart';
@@ -56,9 +58,10 @@ class RouteGenerator {
         );
 
       default:
-        return MaterialPageRoute(
-          builder: (context) => HomeScreen(),
-        );
+        return MaterialPageRoute(builder: (context) {
+          log(settings.name.toString());
+          return HomeScreen();
+        });
     }
   }
 }

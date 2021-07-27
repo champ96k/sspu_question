@@ -8,10 +8,10 @@ class LoadingState extends FetchFirebaseDataState {
 }
 
 class LoadedState extends FetchFirebaseDataState {
-  final List<QuestionBankModel> models;
-  LoadedState(this.models);
+  final QuestionBankModel model;
+  LoadedState(this.model);
   @override
-  List<Object?> get props => [models];
+  List<Object?> get props => [model];
 }
 
 class ErrorState extends FetchFirebaseDataState {

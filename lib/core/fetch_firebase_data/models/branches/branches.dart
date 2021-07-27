@@ -1,42 +1,19 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
 import '../models.dart';
 
-class Branches {
-  String? branchId;
-  String? branchName;
-  String? branchThumbnail;
-  String? backgroundColor;
-  List<Semesters?>? semesters;
+part 'branches.freezed.dart';
+part 'branches.g.dart';
 
-  Branches({
-    this.branchId,
-    this.branchName,
-    this.branchThumbnail,
-    this.backgroundColor,
-    this.semesters,
-  });
+@freezed
+class Branches with _$Branches {
+  factory Branches(
+    String? branchName,
+    String? branchThumbnail,
+    String? backgroundColor,
+    List<Semesters?>? semesters,
+  ) = _Branches;
 
-  Branches.fromJson(Map<String, dynamic> json) {
-    branchId = json['branchId'];
-    branchName = json['branchName'];
-    branchThumbnail = json['branchThumbnail'];
-    backgroundColor = json['backgroundColor'];
-    if (json['semesters'] != null) {
-      semesters = <Semesters>[];
-      json['semesters'].forEach((v) {
-        semesters!.add(Semesters.fromJson(v));
-      });
-    }
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    data['branchId'] = branchId;
-    data['branchName'] = branchName;
-    data['branchThumbnail'] = branchThumbnail;
-    data['backgroundColor'] = backgroundColor;
-    if (semesters != null) {
-      data['semesters'] = semesters!.map((v) => v!.toJson()).toList();
-    }
-    return data;
-  }
+  factory Branches.fromJson(Map<String, dynamic> json) =>
+      _$BranchesFromJson(json);
 }
