@@ -5,5 +5,5 @@ class Constants {
   //Images
   static String feedbackImage = 'images/feedback.png';
   static String thankYouImage = 'images/thankYou.png';
-  static String errorImage = 'images/error.png';
+  static String crash404Image = 'images/crash404.gif';
 }

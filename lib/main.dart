@@ -1,15 +1,16 @@
 // @dart=2.9
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_phoenix/flutter_phoenix.dart';
 
 import 'core/app_config/service_locator.dart';
 import 'material_app_screen.dart';
-import 'src/pages/error/error_screen.dart';
+import 'src/pages/error/initialization_error.dart';
 import 'src/pages/loading/loading_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp());
+  runApp(Phoenix(child: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
@@ -48,7 +49,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     // Show error message if initialization failed
     if (_error) {
-      return const ErrorScreen();
+      return const InitializationError();
     }
 
     // Show a loader until FlutterFire is initialized

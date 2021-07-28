@@ -47,6 +47,853 @@
       ],
       "branches": [
         {
+          "branchName": "First Year Engineering",
+          "backgroundColor": "Colors.red",
+          "branchThumbnail": "https://www.transparentpng.com/download/web-development/transparent-web-development-20.png",
+          "semesters": [
+            {
+              "semesterName": "First Semester",
+              "subjects": [
+                {
+                  "subjectName": "Basic Electical Engineering",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "March 2020",
+                      "downloadURL": "https://firebasestorage.googleapis.com/v0/b/bookshelf-3afe7.appspot.com/o/University%20Question%20Papers%2FFirst%20Year%2F2019%20Pattern%2FBasic%20Electical%20Engineering%2FMarch_2020.pdf?alt=media&token=e60ac75b-79ec-4b26-8fb8-30170184316c",
+                      "patternName": "2019 Pattern"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                }
+              ]
+            },
+            {
+              "semesterName": "Second Semester",
+              "subjects": [
+                {
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "subjects": [
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    }
+                  ]
+                }
+              ],
+              "semesterName": "Third Semester"
+            },
+            {
+              "subjects": [
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                }
+              ],
+              "semesterName": "Forth Semester"
+            },
+            {
+              "subjects": [
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                }
+              ],
+              "semesterName": "Fifth Semester"
+            },
+            {
+              "semesterName": "Six Semester",
+              "subjects": [
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                }
+              ]
+            },
+            {
+              "semesterName": "Seventh Semester",
+              "subjects": [
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    }
+                  ]
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                }
+              ]
+            },
+            {
+              "semesterName": "Eight Semester",
+              "subjects": [
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    }
+                  ],
+                  "subjectName": "Data structure and algorith"
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                },
+                {
+                  "subjectName": "Data structure and algorith",
+                  "questionPapers": [
+                    {
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020"
+                    },
+                    {
+                      "patternName": "2015 Patter",
+                      "paperNmae": "May 2020",
+                      "downloadURL": "htts:www.google.com"
+                    },
+                    {
+                      "downloadURL": "htts:www.google.com",
+                      "paperNmae": "May 2020",
+                      "patternName": "2015 Patter"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "branchThumbnail": "https://www.transparentpng.com/download/web-development/transparent-web-development-20.png",
           "branchName": "Computer Engineering",
           "semesters": [
@@ -1741,7 +2588,7 @@
           "backgroundColor": "Colors.red"
         },
         {
-          "branchName": "Mechenical Engineering",
+          "branchName": "Electronics & Telecommunication engineering",
           "semesters": [
             {
               "subjects": [
@@ -3431,7 +4278,7 @@
               ]
             }
           ],
-          "branchName": "Computer Engineering",
+          "branchName": "Electrical Engineering",
           "backgroundColor": "Colors.red"
         },
         {
@@ -4278,7 +5125,7 @@
             }
           ],
           "branchThumbnail": "https://www.transparentpng.com/download/web-development/transparent-web-development-20.png",
-          "branchName": "Computer Engineering",
+          "branchName": "Information Technology Engineering",
           "backgroundColor": "Colors.red"
         },
         {
@@ -5125,855 +5972,8 @@
               ]
             }
           ],
-          "branchName": "Computer Engineering",
+          "branchName": "Mechanical Engineering",
           "branchThumbnail": "https://www.transparentpng.com/download/web-development/transparent-web-development-20.png"
-        },
-        {
-          "branchName": "ENTC Engineering",
-          "backgroundColor": "Colors.red",
-          "branchThumbnail": "https://www.transparentpng.com/download/web-development/transparent-web-development-20.png",
-          "semesters": [
-            {
-              "semesterName": "First Semester",
-              "subjects": [
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                }
-              ]
-            },
-            {
-              "semesterName": "Second Semester",
-              "subjects": [
-                {
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "subjects": [
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    }
-                  ]
-                }
-              ],
-              "semesterName": "Third Semester"
-            },
-            {
-              "subjects": [
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                }
-              ],
-              "semesterName": "Forth Semester"
-            },
-            {
-              "subjects": [
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                }
-              ],
-              "semesterName": "Fifth Semester"
-            },
-            {
-              "semesterName": "Six Semester",
-              "subjects": [
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                }
-              ]
-            },
-            {
-              "semesterName": "Seventh Semester",
-              "subjects": [
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    }
-                  ]
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                }
-              ]
-            },
-            {
-              "semesterName": "Eight Semester",
-              "subjects": [
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    }
-                  ],
-                  "subjectName": "Data structure and algorith"
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                },
-                {
-                  "subjectName": "Data structure and algorith",
-                  "questionPapers": [
-                    {
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020"
-                    },
-                    {
-                      "patternName": "2015 Patter",
-                      "paperNmae": "May 2020",
-                      "downloadURL": "htts:www.google.com"
-                    },
-                    {
-                      "downloadURL": "htts:www.google.com",
-                      "paperNmae": "May 2020",
-                      "patternName": "2015 Patter"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     }

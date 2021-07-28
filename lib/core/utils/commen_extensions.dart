@@ -19,3 +19,13 @@ extension IntExtension on int {
     return "$minutes:$seconds";
   }
 }
+
+Color colorConvert(String color) {
+  color = color.replaceAll("#", "");
+  if (color.length == 6) {
+    return Color(int.parse("0xFF$color")).withOpacity(0.2);
+  } else if (color.length == 8) {
+    return Color(int.parse("0x$color"))..withOpacity(0.2);
+  }
+  return Colors.red;
+}

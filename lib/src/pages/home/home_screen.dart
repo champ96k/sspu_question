@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../core/core.dart';
+import '../../../core/utils/commen_extensions.dart';
 import '../../widget/app_heading.dart';
 import '../error/error_screen.dart';
 import '../loading/loading_screen.dart';
@@ -40,8 +41,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     final model = state.model.branches?[index];
                     return BranchListItem(
                       imageUrl: "${model?.branchThumbnail}",
-                      cardColor: ConstantsColor.colors[index],
-                      title: "${model?.branchName}",
+                      cardColor: colorConvert("${model!.backgroundColor}"),
+                      title: "${model.branchName}",
                       onTab: () {
                         Navigator.pushNamed(
                           context,
